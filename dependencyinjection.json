@@ -1,0 +1,36 @@
+{
+    "namespace": "yannhardouin",
+    "name": "concreteemployees",
+    "externals": [
+                    "vendors://yannhardouin/concretebooleans/dependencyinjection.json",
+                    "vendors://yannhardouin/concreteobjectloaders/dependencyinjection.json",
+                    "vendors://yannhardouin/concretestrings/dependencyinjection.json",
+                    "vendors://yannhardouin/concreteintegers/dependencyinjection.json",
+                    "vendors://yannhardouin/concreteuuids/dependencyinjection.json"
+    ],
+    "configs": {
+        "builder_factory_classname": "ConcreteEmployees\\Infrastructure\\Builders\\ConcreteEmployeeBuilder"
+    },
+    "objects": {
+        "builderfactory": {
+            "class": "ConcreteEntities\\Infrastructure\\Factories\\ConcreteEntityBuilderFactory",
+            "dependencies": [
+                                "irestful.concretebooleans.adapter",
+                                "irestful.concreteobjectloaders.adapter",
+                                "configs.builder_factory_classname"
+            ]
+        },
+        "irestful.concretebooleans.adapter" : {
+            "class": "ConcreteDependencyInjectionObjectPlaceHolders\\Infrastructure\\Objects\\ConcreteDependencyInjectionObjectPlaceHolder"
+        },
+        "irestful.concreteobjectloaders.adapter" : {
+            "class": "ConcreteDependencyInjectionObjectPlaceHolders\\Infrastructure\\Objects\\ConcreteDependencyInjectionObjectPlaceHolder"
+        },
+        "irestful.concretestrings.adapter" : {
+            "class": "ConcreteDependencyInjectionObjectPlaceHolders\\Infrastructure\\Objects\\ConcreteDependencyInjectionObjectPlaceHolder"
+        },
+        "irestful.concreteuuids.adapter" : {
+            "class": "ConcreteDependencyInjectionObjectPlaceHolders\\Infrastructure\\Objects\\ConcreteDependencyInjectionObjectPlaceHolder"
+        }
+    }
+}

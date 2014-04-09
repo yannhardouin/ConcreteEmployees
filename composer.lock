@@ -1,0 +1,4341 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "072d7ca002df7bee0a96e6e019ad8249",
+    "packages": [
+        {
+            "name": "doctrine/annotations",
+            "version": "v1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/annotations.git",
+                "reference": "40db0c96985aab2822edbc4848b3bd2429e02670"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/40db0c96985aab2822edbc4848b3bd2429e02670",
+                "reference": "40db0c96985aab2822edbc4848b3bd2429e02670",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/lexer": "1.*",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "doctrine/cache": "1.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Annotations\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan H. Wage",
+                    "email": "jonwage@gmail.com",
+                    "homepage": "http://www.jwage.com/",
+                    "role": "Creator"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com",
+                    "homepage": "http://www.instaclick.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com",
+                    "homepage": "http://jmsyst.com",
+                    "role": "Developer of wrapped JMSSerializerBundle"
+                }
+            ],
+            "description": "Docblock Annotations Parser",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "annotations",
+                "docblock",
+                "parser"
+            ],
+            "time": "2013-06-16 21:33:03"
+        },
+        {
+            "name": "doctrine/lexer",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/lexer.git",
+                "reference": "2f708a85bb3aab5d99dab8be435abd73e0b18acb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/lexer/zipball/2f708a85bb3aab5d99dab8be435abd73e0b18acb",
+                "reference": "2f708a85bb3aab5d99dab8be435abd73e0b18acb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Lexer\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com",
+                    "homepage": "http://www.instaclick.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com",
+                    "homepage": "http://jmsyst.com",
+                    "role": "Developer of wrapped JMSSerializerBundle"
+                }
+            ],
+            "description": "Base library for a lexer that can be used in Top-Down, Recursive Descent Parsers.",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "lexer",
+                "parser"
+            ],
+            "time": "2013-01-12 18:59:04"
+        },
+        {
+            "name": "irestful/argumentmetadatalists",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ArgumentMetaDataLists.git",
+                "reference": "a9d90faa7006cee65e8c6c70c8dff04a3f3212e7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ArgumentMetaDataLists/zipball/a9d90faa7006cee65e8c6c70c8dff04a3f3212e7",
+                "reference": "a9d90faa7006cee65e8c6c70c8dff04a3f3212e7",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/simplelists": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ArgumentMetaDataLists": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ArgumentMetaDataLists",
+            "time": "2014-03-20 11:01:25"
+        },
+        {
+            "name": "irestful/argumentmetadatarepositories",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ArgumentMetaDataRepositories.git",
+                "reference": "05dc197d9b94b69d8d2653ef45e9112321999032"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ArgumentMetaDataRepositories/zipball/05dc197d9b94b69d8d2653ef45e9112321999032",
+                "reference": "05dc197d9b94b69d8d2653ef45e9112321999032",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/argumentmetadataretrievercriterias": "13.11.28",
+                "irestful/argumentmetadatas": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ArgumentMetaDataRepositories": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ArgumentMetaDataRepositories",
+            "time": "2014-03-18 05:38:23"
+        },
+        {
+            "name": "irestful/argumentmetadataretrievercriterias",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ArgumentMetaDataRetrieverCriterias.git",
+                "reference": "4b0c684dbd809a87bac3b411cca7c5485e1056b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ArgumentMetaDataRetrieverCriterias/zipball/4b0c684dbd809a87bac3b411cca7c5485e1056b6",
+                "reference": "4b0c684dbd809a87bac3b411cca7c5485e1056b6",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/booleans": "13.11.28",
+                "irestful/strings": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ArgumentMetaDataRetrieverCriterias": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ArgumentMetaDataRetrieverCriterias",
+            "time": "2014-03-18 06:51:20"
+        },
+        {
+            "name": "irestful/argumentmetadatas",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ArgumentMetaDatas.git",
+                "reference": "955be308de4534fc4afc18a6181f2153ee627e1c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ArgumentMetaDatas/zipball/955be308de4534fc4afc18a6181f2153ee627e1c",
+                "reference": "955be308de4534fc4afc18a6181f2153ee627e1c",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/booleans": "13.11.28",
+                "irestful/strings": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ArgumentMetaDatas": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ArgumentMetaDatas",
+            "time": "2014-03-18 04:53:36"
+        },
+        {
+            "name": "irestful/argumentmetadatasets",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ArgumentMetaDataSets.git",
+                "reference": "1a06b6cd107267ac7c99fd45fec46f9b4e562cee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ArgumentMetaDataSets/zipball/1a06b6cd107267ac7c99fd45fec46f9b4e562cee",
+                "reference": "1a06b6cd107267ac7c99fd45fec46f9b4e562cee",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/sets": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ArgumentMetaDataSets": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ArgumentMetaDataSets",
+            "time": "2014-03-20 11:11:23"
+        },
+        {
+            "name": "irestful/booleans",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/Booleans.git",
+                "reference": "c9d0407b6eabdd9126d92dd99493cb789cc71636"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/Booleans/zipball/c9d0407b6eabdd9126d92dd99493cb789cc71636",
+                "reference": "c9d0407b6eabdd9126d92dd99493cb789cc71636",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/primitives": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Booleans": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/Booleans",
+            "time": "2014-03-22 17:28:47"
+        },
+        {
+            "name": "irestful/classannotationobjects",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ClassAnnotationObjects.git",
+                "reference": "324a6cceba459b3570fe16937d82d1fac073dae2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ClassAnnotationObjects/zipball/324a6cceba459b3570fe16937d82d1fac073dae2",
+                "reference": "324a6cceba459b3570fe16937d82d1fac073dae2",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ClassAnnotationObjects": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ClassAnnotationObjects",
+            "time": "2014-03-22 21:31:49"
+        },
+        {
+            "name": "irestful/classmetadatarepositories",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ClassMetaDataRepositories.git",
+                "reference": "c3fdc00e4f62f9821869ad45d23cf9154309d5bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ClassMetaDataRepositories/zipball/c3fdc00e4f62f9821869ad45d23cf9154309d5bb",
+                "reference": "c3fdc00e4f62f9821869ad45d23cf9154309d5bb",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/classmetadataretrievercriterias": "13.11.28",
+                "irestful/classmetadatas": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ClassMetaDataRepositories": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ClassMetaDataRepositories",
+            "time": "2014-03-20 16:44:24"
+        },
+        {
+            "name": "irestful/classmetadataretrievercriterias",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ClassMetaDataRetrieverCriterias.git",
+                "reference": "726f028b9d9ae3260d77ab79a8a6fea17598f690"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ClassMetaDataRetrieverCriterias/zipball/726f028b9d9ae3260d77ab79a8a6fea17598f690",
+                "reference": "726f028b9d9ae3260d77ab79a8a6fea17598f690",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/booleans": "13.11.28",
+                "irestful/strings": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ClassMetaDataRetrieverCriterias": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ClassMetaDataRetrieverCriterias",
+            "time": "2014-03-20 02:57:36"
+        },
+        {
+            "name": "irestful/classmetadatas",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ClassMetaDatas.git",
+                "reference": "8e0620a12f854aac7637e1609150e10d310ddecc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ClassMetaDatas/zipball/8e0620a12f854aac7637e1609150e10d310ddecc",
+                "reference": "8e0620a12f854aac7637e1609150e10d310ddecc",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/argumentmetadatasets": "13.11.28",
+                "irestful/booleans": "13.11.28",
+                "irestful/methodmetadatasets": "13.11.28",
+                "irestful/strings": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ClassMetaDatas": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ClassMetaDatas",
+            "time": "2014-03-20 16:42:01"
+        },
+        {
+            "name": "irestful/collections",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/Collections.git",
+                "reference": "950807386362ec884316004e8c25657cc0a7f928"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/Collections/zipball/950807386362ec884316004e8c25657cc0a7f928",
+                "reference": "950807386362ec884316004e8c25657cc0a7f928",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/booleans": "13.11.28",
+                "irestful/integers": "13.11.28",
+                "irestful/strings": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Collections": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/Collections",
+            "time": "2014-03-22 20:08:55"
+        },
+        {
+            "name": "irestful/concreteargumentmetadatalists",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteArgumentMetaDataLists.git",
+                "reference": "6e95b18979748114a345b247d70a4bfd4a064b2a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteArgumentMetaDataLists/zipball/6e95b18979748114a345b247d70a4bfd4a064b2a",
+                "reference": "6e95b18979748114a345b247d70a4bfd4a064b2a",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/argumentmetadatalists": "13.11.28",
+                "irestful/argumentmetadatas": "13.11.28",
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/concretesimplelists": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteArgumentMetaDataLists": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteArgumentMetaDataLists",
+            "time": "2014-03-20 16:20:36"
+        },
+        {
+            "name": "irestful/concreteargumentmetadatarepositories",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteArgumentMetaDataRepositories.git",
+                "reference": "b734bb44402c0096b10882d856893763c05516c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteArgumentMetaDataRepositories/zipball/b734bb44402c0096b10882d856893763c05516c3",
+                "reference": "b734bb44402c0096b10882d856893763c05516c3",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/annotations": "v1.1.2",
+                "irestful/argumentmetadatarepositories": "13.11.28",
+                "irestful/argumentmetadataretrievercriterias": "13.11.28",
+                "irestful/concreteargumentmetadatas": "13.11.28",
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/concretepropertyannotationobjects": "13.11.28",
+                "irestful/concretestrings": "13.11.28",
+                "irestful/propertyannotationobjects": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteArgumentMetaDataRepositories": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteArgumentMetaDataRepositories",
+            "time": "2014-03-24 23:43:32"
+        },
+        {
+            "name": "irestful/concreteargumentmetadataretrievercriterias",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteArgumentMetaDataRetrieverCriterias.git",
+                "reference": "67fc3e15885a4d3b5f5d72c4668d04f20d290471"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteArgumentMetaDataRetrieverCriterias/zipball/67fc3e15885a4d3b5f5d72c4668d04f20d290471",
+                "reference": "67fc3e15885a4d3b5f5d72c4668d04f20d290471",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/argumentmetadataretrievercriterias": "13.11.28",
+                "irestful/booleans": "13.11.28",
+                "irestful/concretebooleans": "13.11.28",
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/strings": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteArgumentMetaDataRetrieverCriterias": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteArgumentMetaDataRetrieverCriterias",
+            "time": "2014-03-18 05:29:32"
+        },
+        {
+            "name": "irestful/concreteargumentmetadatas",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteArgumentMetaDatas.git",
+                "reference": "a442cb11644ebc84ca199d29017166620d34d4b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteArgumentMetaDatas/zipball/a442cb11644ebc84ca199d29017166620d34d4b6",
+                "reference": "a442cb11644ebc84ca199d29017166620d34d4b6",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/argumentmetadatas": "13.11.28",
+                "irestful/booleans": "13.11.28",
+                "irestful/concretebooleans": "13.11.28",
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/strings": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteArgumentMetaDatas": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteArgumentMetaDatas",
+            "time": "2014-03-20 18:06:01"
+        },
+        {
+            "name": "irestful/concreteargumentmetadatasets",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteArgumentMetaDataSets.git",
+                "reference": "34652c25b9083ea582b97188d2bc1be62b95109f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteArgumentMetaDataSets/zipball/34652c25b9083ea582b97188d2bc1be62b95109f",
+                "reference": "34652c25b9083ea582b97188d2bc1be62b95109f",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/argumentmetadatalists": "13.11.28",
+                "irestful/argumentmetadatas": "13.11.28",
+                "irestful/argumentmetadatasets": "13.11.28",
+                "irestful/concreteargumentmetadatalists": "13.11.28",
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/concreteobjectloaders": "13.11.28",
+                "irestful/concretesets": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteArgumentMetaDataSets": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteArgumentMetaDataSets",
+            "time": "2014-03-20 16:27:00"
+        },
+        {
+            "name": "irestful/concretebooleans",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteBooleans.git",
+                "reference": "199e0b17a421869fe6ae6bdf1a789f743cf63f82"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteBooleans/zipball/199e0b17a421869fe6ae6bdf1a789f743cf63f82",
+                "reference": "199e0b17a421869fe6ae6bdf1a789f743cf63f82",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/booleans": "13.11.28",
+                "irestful/concreteclassannotationobjects": "13.11.28",
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/concreteobjectloaders": "13.11.28",
+                "irestful/concreteprimitives": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteBooleans": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteBooleans",
+            "time": "2014-03-23 04:13:38"
+        },
+        {
+            "name": "irestful/concreteclassannotationobjects",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteClassAnnotationObjects.git",
+                "reference": "6c9df7c5e6f154f4777826492ba7031f006d1ecf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteClassAnnotationObjects/zipball/6c9df7c5e6f154f4777826492ba7031f006d1ecf",
+                "reference": "6c9df7c5e6f154f4777826492ba7031f006d1ecf",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/classannotationobjects": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteClassAnnotationObjects": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteClassAnnotationObjects",
+            "time": "2014-03-23 04:23:28"
+        },
+        {
+            "name": "irestful/concreteclassmetadatarepositories",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteClassMetaDataRepositories.git",
+                "reference": "dc599e09fd4ac749b5c5844d95b709ce28e716be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteClassMetaDataRepositories/zipball/dc599e09fd4ac749b5c5844d95b709ce28e716be",
+                "reference": "dc599e09fd4ac749b5c5844d95b709ce28e716be",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/annotations": "v1.1.2",
+                "irestful/argumentmetadatarepositories": "13.11.28",
+                "irestful/argumentmetadataretrievercriterias": "13.11.28",
+                "irestful/argumentmetadatas": "13.11.28",
+                "irestful/argumentmetadatasets": "13.11.28",
+                "irestful/classannotationobjects": "13.11.28",
+                "irestful/classmetadatarepositories": "13.11.28",
+                "irestful/classmetadataretrievercriterias": "13.11.28",
+                "irestful/classmetadatas": "13.11.28",
+                "irestful/concreteargumentmetadatarepositories": "13.11.28",
+                "irestful/concreteargumentmetadataretrievercriterias": "13.11.28",
+                "irestful/concreteargumentmetadatasets": "13.11.28",
+                "irestful/concreteclassannotationobjects": "13.11.28",
+                "irestful/concreteclassmetadatas": "13.11.28",
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/concretemethodmetadatarepositories": "13.11.28",
+                "irestful/concretemethodmetadataretrievercriterias": "13.11.28",
+                "irestful/concretemethodmetadatasets": "13.11.28",
+                "irestful/concretestrings": "13.11.28",
+                "irestful/methodmetadatarepositories": "13.11.28",
+                "irestful/methodmetadataretrievercriterias": "13.11.28",
+                "irestful/methodmetadatas": "13.11.28",
+                "irestful/methodmetadatasets": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteClassMetaDataRepositories": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteClassMetaDataRepositories",
+            "time": "2014-03-26 12:46:58"
+        },
+        {
+            "name": "irestful/concreteclassmetadataretrievercriterias",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteClassMetaDataRetrieverCriterias.git",
+                "reference": "b29da94cd6c7284099aa84c45c0bf879bf9cb2b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteClassMetaDataRetrieverCriterias/zipball/b29da94cd6c7284099aa84c45c0bf879bf9cb2b8",
+                "reference": "b29da94cd6c7284099aa84c45c0bf879bf9cb2b8",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/classmetadataretrievercriterias": "13.11.28",
+                "irestful/concretebooleans": "13.11.28",
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteClassMetaDataRetrieverCriterias": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteClassMetaDataRetrieverCriterias",
+            "time": "2014-03-20 03:24:42"
+        },
+        {
+            "name": "irestful/concreteclassmetadatas",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteClassMetaDatas.git",
+                "reference": "681e60406ac57fa5795d8d870ed3e94b7864004b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteClassMetaDatas/zipball/681e60406ac57fa5795d8d870ed3e94b7864004b",
+                "reference": "681e60406ac57fa5795d8d870ed3e94b7864004b",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/argumentmetadatasets": "13.11.28",
+                "irestful/booleans": "13.11.28",
+                "irestful/classmetadatas": "13.11.28",
+                "irestful/concretebooleans": "13.11.28",
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/methodmetadatasets": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteClassMetaDatas": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteClassMetaDatas",
+            "time": "2014-03-20 16:58:27"
+        },
+        {
+            "name": "irestful/concretecollections",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteCollections.git",
+                "reference": "ec07ce65337a8567b9e712010cd0de5120e4406b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteCollections/zipball/ec07ce65337a8567b9e712010cd0de5120e4406b",
+                "reference": "ec07ce65337a8567b9e712010cd0de5120e4406b",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/collections": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/objectloaders": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteCollections": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteCollections",
+            "time": "2014-03-24 02:50:46"
+        },
+        {
+            "name": "irestful/concretedatetimes",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteDateTimes.git",
+                "reference": "135a7ad6c4bca7c6ddc893cec45af941289ffd55"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteDateTimes/zipball/135a7ad6c4bca7c6ddc893cec45af941289ffd55",
+                "reference": "135a7ad6c4bca7c6ddc893cec45af941289ffd55",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/booleans": "13.11.28",
+                "irestful/concretebooleans": "13.11.28",
+                "irestful/concreteclassannotationobjects": "13.11.28",
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concreteintegers": "13.11.28",
+                "irestful/datetimes": "13.11.28",
+                "irestful/integers": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteDateTimes": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteDateTimes",
+            "time": "2014-03-22 15:31:01"
+        },
+        {
+            "name": "irestful/concretedependencyinjectionapplications",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteDependencyInjectionApplications.git",
+                "reference": "158a2a5e10ba0a6ab1e15ac9e7706771a5115ee6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteDependencyInjectionApplications/zipball/158a2a5e10ba0a6ab1e15ac9e7706771a5115ee6",
+                "reference": "158a2a5e10ba0a6ab1e15ac9e7706771a5115ee6",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/concretedependencyinjectionfilerepositories": "13.11.28",
+                "irestful/concretedependencyinjectionmultifilerepositories": "13.11.28",
+                "irestful/concretedependencyinjectionmultisources": "13.11.28",
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretedependencyinjectionobjects": "13.11.28",
+                "irestful/concretedependencyinjectionretrievercriterias": "13.11.28",
+                "irestful/concretedependencyinjections": "13.11.28",
+                "irestful/dependencyinjectionapplications": "13.11.28",
+                "irestful/dependencyinjectionobjects": "13.11.28",
+                "irestful/dependencyinjectionrepositories": "13.11.28",
+                "irestful/dependencyinjections": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteDependencyInjectionApplications": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteDependencyInjectionApplications",
+            "time": "2014-03-24 22:12:33"
+        },
+        {
+            "name": "irestful/concretedependencyinjectionfilerepositories",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteDependencyInjectionFileRepositories.git",
+                "reference": "20b097004adb29106fb82e54557af4d26d8377c2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteDependencyInjectionFileRepositories/zipball/20b097004adb29106fb82e54557af4d26d8377c2",
+                "reference": "20b097004adb29106fb82e54557af4d26d8377c2",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/dependencyinjectionrepositories": "13.11.28",
+                "irestful/dependencyinjectionretrievercriterias": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "irestful/dependencyinjections": "13.11.28",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteDependencyInjectionFileRepositories": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteDependencyInjectionFileRepositories",
+            "time": "2013-12-31 00:00:31"
+        },
+        {
+            "name": "irestful/concretedependencyinjectionmultifilerepositories",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteDependencyInjectionMultiFileRepositories.git",
+                "reference": "99185bc130007ca8c33d07fb43f62ec230290bbe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteDependencyInjectionMultiFileRepositories/zipball/99185bc130007ca8c33d07fb43f62ec230290bbe",
+                "reference": "99185bc130007ca8c33d07fb43f62ec230290bbe",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/dependencyinjectionmultisources": "13.11.28",
+                "irestful/dependencyinjectionrepositories": "13.11.28",
+                "irestful/dependencyinjectionretrievercriterias": "13.11.28",
+                "irestful/dependencyinjections": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteDependencyInjectionMultiFileRepositories": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteDependencyInjectionMultiFileRepositories",
+            "time": "2014-03-24 03:38:16"
+        },
+        {
+            "name": "irestful/concretedependencyinjectionmultisources",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteDependencyInjectionMultiSources.git",
+                "reference": "10037b21a5da6e43e015dc8337adacda8ee44c85"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteDependencyInjectionMultiSources/zipball/10037b21a5da6e43e015dc8337adacda8ee44c85",
+                "reference": "10037b21a5da6e43e015dc8337adacda8ee44c85",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/dependencyinjectionmultisources": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteDependencyInjectionMultiSources": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteDependencyInjectionMultiSources",
+            "time": "2014-01-02 05:53:40"
+        },
+        {
+            "name": "irestful/concretedependencyinjectionobjectplaceholders",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteDependencyInjectionObjectPlaceHolders.git",
+                "reference": "4998ee81333e5e5e99712b76381732e888cd0dee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteDependencyInjectionObjectPlaceHolders/zipball/4998ee81333e5e5e99712b76381732e888cd0dee",
+                "reference": "4998ee81333e5e5e99712b76381732e888cd0dee",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteDependencyInjectionObjectPlaceHolders": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteDependencyInjectionObjectPlaceHolders",
+            "time": "2014-01-12 18:02:16"
+        },
+        {
+            "name": "irestful/concretedependencyinjectionobjects",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteDependencyInjectionObjects.git",
+                "reference": "ea097c99c0a5c7af3ad03047fc08b72c4f6c6105"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteDependencyInjectionObjects/zipball/ea097c99c0a5c7af3ad03047fc08b72c4f6c6105",
+                "reference": "ea097c99c0a5c7af3ad03047fc08b72c4f6c6105",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/dependencyinjectionobjects": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteDependencyInjectionObjects": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteDependencyInjectionObjects",
+            "time": "2014-03-23 17:40:23"
+        },
+        {
+            "name": "irestful/concretedependencyinjectionretrievercriterias",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteDependencyInjectionRetrieverCriterias.git",
+                "reference": "5e109e5f6a60c930bfd9ab4792342b43061f49b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteDependencyInjectionRetrieverCriterias/zipball/5e109e5f6a60c930bfd9ab4792342b43061f49b1",
+                "reference": "5e109e5f6a60c930bfd9ab4792342b43061f49b1",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/dependencyinjectionretrievercriterias": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteDependencyInjectionRetrieverCriterias": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteDependencyInjectionRetrieverCriterias",
+            "time": "2013-12-31 00:03:48"
+        },
+        {
+            "name": "irestful/concretedependencyinjections",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteDependencyInjections.git",
+                "reference": "95fe0729552459096cf66d0e47d5fc47865dd1a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteDependencyInjections/zipball/95fe0729552459096cf66d0e47d5fc47865dd1a9",
+                "reference": "95fe0729552459096cf66d0e47d5fc47865dd1a9",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/dependencyinjectionobjects": "13.11.28",
+                "irestful/dependencyinjections": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteDependencyInjections": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteDependencyInjections",
+            "time": "2014-03-23 18:10:39"
+        },
+        {
+            "name": "irestful/concreteentities",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteEntities.git",
+                "reference": "fd0a3d3e9237cbf2601d517eb1693e1c48063363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteEntities/zipball/fd0a3d3e9237cbf2601d517eb1693e1c48063363",
+                "reference": "fd0a3d3e9237cbf2601d517eb1693e1c48063363",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/argumentmetadatas": "13.11.28",
+                "irestful/booleans": "13.11.28",
+                "irestful/classmetadatarepositories": "13.11.28",
+                "irestful/classmetadataretrievercriterias": "13.11.28",
+                "irestful/concretebooleans": "13.11.28",
+                "irestful/concreteclassannotationobjects": "13.11.28",
+                "irestful/concreteclassmetadatarepositories": "13.11.28",
+                "irestful/concreteclassmetadataretrievercriterias": "13.11.28",
+                "irestful/concretedatetimes": "13.11.28",
+                "irestful/concretedependencyinjectionapplications": "13.11.28",
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/concretehashmaprepresentations": "13.11.28",
+                "irestful/concretehashmaps": "13.11.28",
+                "irestful/concretejsons": "13.11.28",
+                "irestful/concretemethodannotationobjects": "13.11.28",
+                "irestful/concretepropertyannotationobjects": "13.11.28",
+                "irestful/concretestrings": "13.11.28",
+                "irestful/concretestringsets": "13.11.28",
+                "irestful/concreteuuids": "13.11.28",
+                "irestful/datetimes": "13.11.28",
+                "irestful/dependencyinjectionapplications": "13.11.28",
+                "irestful/entities": "13.11.28",
+                "irestful/hashmaps": "13.11.28",
+                "irestful/integers": "13.11.28",
+                "irestful/methodmetadatas": "13.11.28",
+                "irestful/stringsets": "13.11.28",
+                "irestful/uuids": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteEntities": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteEntities",
+            "time": "2014-04-06 19:56:40"
+        },
+        {
+            "name": "irestful/concretefunctionaltesthelpers",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteFunctionalTestHelpers.git",
+                "reference": "e3826a26af35ee0690fa01f7e1b8adf9575f9645"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteFunctionalTestHelpers/zipball/e3826a26af35ee0690fa01f7e1b8adf9575f9645",
+                "reference": "e3826a26af35ee0690fa01f7e1b8adf9575f9645",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/annotations": "v1.1.2",
+                "irestful/concretedependencyinjectionapplications": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteFunctionalTestHelpers": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteFunctionalTestHelpers",
+            "time": "2014-03-24 21:43:24"
+        },
+        {
+            "name": "irestful/concretehashmaprepresentations",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteHashMapRepresentations.git",
+                "reference": "6f3ef1586643fc8f5efb99561b86e932349fa359"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteHashMapRepresentations/zipball/6f3ef1586643fc8f5efb99561b86e932349fa359",
+                "reference": "6f3ef1586643fc8f5efb99561b86e932349fa359",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/booleans": "13.11.28",
+                "irestful/concretebooleans": "13.11.28",
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/hashmaprepresentations": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteHashMapRepresentations": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteHashMapRepresentations",
+            "time": "2014-03-28 08:59:50"
+        },
+        {
+            "name": "irestful/concretehashmaps",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteHashMaps.git",
+                "reference": "c957e65e8483489597ea1731d4488cd05f52c2f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteHashMaps/zipball/c957e65e8483489597ea1731d4488cd05f52c2f4",
+                "reference": "c957e65e8483489597ea1731d4488cd05f52c2f4",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/booleans": "13.11.28",
+                "irestful/concretebooleans": "13.11.28",
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/hashmaps": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteHashMaps": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteHashMaps",
+            "time": "2014-03-23 05:47:50"
+        },
+        {
+            "name": "irestful/concreteintegers",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteIntegers.git",
+                "reference": "05054db8bf4f270caa6688c423ed47e95a4ac883"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteIntegers/zipball/05054db8bf4f270caa6688c423ed47e95a4ac883",
+                "reference": "05054db8bf4f270caa6688c423ed47e95a4ac883",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/concretebooleans": "13.11.28",
+                "irestful/concreteclassannotationobjects": "13.11.28",
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/concretenumericprimitives": "13.11.28",
+                "irestful/concreteobjectloaders": "13.11.28",
+                "irestful/concreteprimitives": "13.11.28",
+                "irestful/integers": "13.11.28",
+                "irestful/objectloaders": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteIntegers": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteIntegers",
+            "time": "2014-03-24 15:54:21"
+        },
+        {
+            "name": "irestful/concretejsons",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteJsons.git",
+                "reference": "2ca06e847abccf565b9faa39a2176375ffa3a275"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteJsons/zipball/2ca06e847abccf565b9faa39a2176375ffa3a275",
+                "reference": "2ca06e847abccf565b9faa39a2176375ffa3a275",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/jsons": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteJsons": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteJsons",
+            "time": "2014-03-23 05:38:01"
+        },
+        {
+            "name": "irestful/concretemethodannotationobjects",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteMethodAnnotationObjects.git",
+                "reference": "eb747d8c82036e15b6f314d297f928e083e4f847"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteMethodAnnotationObjects/zipball/eb747d8c82036e15b6f314d297f928e083e4f847",
+                "reference": "eb747d8c82036e15b6f314d297f928e083e4f847",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/methodannotationobjects": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteMethodAnnotationObjects": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteMethodAnnotationObjects",
+            "time": "2014-03-26 08:26:06"
+        },
+        {
+            "name": "irestful/concretemethodmetadatalists",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteMethodMetaDataLists.git",
+                "reference": "7f88a640fcf21d6d042d7f49b0950e8a46d5de5e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteMethodMetaDataLists/zipball/7f88a640fcf21d6d042d7f49b0950e8a46d5de5e",
+                "reference": "7f88a640fcf21d6d042d7f49b0950e8a46d5de5e",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/concretesimplelists": "13.11.28",
+                "irestful/methodmetadatalists": "13.11.28",
+                "irestful/methodmetadatas": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteMethodMetaDataLists": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteMethodMetaDataLists",
+            "time": "2014-03-23 05:34:47"
+        },
+        {
+            "name": "irestful/concretemethodmetadatarepositories",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteMethodMetaDataRepositories.git",
+                "reference": "51f325445e9b2251dd1d28e34b795cb953b6246d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteMethodMetaDataRepositories/zipball/51f325445e9b2251dd1d28e34b795cb953b6246d",
+                "reference": "51f325445e9b2251dd1d28e34b795cb953b6246d",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/annotations": "v1.1.2",
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/concretemethodannotationobjects": "13.11.28",
+                "irestful/concretemethodmetadatas": "13.11.28",
+                "irestful/concretestrings": "13.11.28",
+                "irestful/concretetransformreferences": "13.11.28",
+                "irestful/methodannotationobjects": "13.11.28",
+                "irestful/methodmetadatarepositories": "13.11.28",
+                "irestful/methodmetadataretrievercriterias": "13.11.28",
+                "irestful/methodmetadatas": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteMethodMetaDataRepositories": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteMethodMetaDataRepositories",
+            "time": "2014-03-26 10:12:17"
+        },
+        {
+            "name": "irestful/concretemethodmetadataretrievercriterias",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteMethodMetaDataRetrieverCriterias.git",
+                "reference": "bbce5f9d2324967fdc17f25fb87110c54763af07"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteMethodMetaDataRetrieverCriterias/zipball/bbce5f9d2324967fdc17f25fb87110c54763af07",
+                "reference": "bbce5f9d2324967fdc17f25fb87110c54763af07",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/concretebooleans": "13.11.28",
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/methodmetadataretrievercriterias": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteMethodMetaDataRetrieverCriterias": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteMethodMetaDataRetrieverCriterias",
+            "time": "2014-03-23 05:31:48"
+        },
+        {
+            "name": "irestful/concretemethodmetadatas",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteMethodMetaDatas.git",
+                "reference": "501e5a73058d369bb20d034264b0b3d05cf46fc7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteMethodMetaDatas/zipball/501e5a73058d369bb20d034264b0b3d05cf46fc7",
+                "reference": "501e5a73058d369bb20d034264b0b3d05cf46fc7",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/concretebooleans": "13.11.28",
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/methodmetadatas": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteMethodMetaDatas": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteMethodMetaDatas",
+            "time": "2014-03-26 09:33:33"
+        },
+        {
+            "name": "irestful/concretemethodmetadatasets",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteMethodMetaDataSets.git",
+                "reference": "8f76ea1e199f9fe0c8ccf110f365870780a120f1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteMethodMetaDataSets/zipball/8f76ea1e199f9fe0c8ccf110f365870780a120f1",
+                "reference": "8f76ea1e199f9fe0c8ccf110f365870780a120f1",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/concretemethodmetadatalists": "13.11.28",
+                "irestful/concreteobjectloaders": "13.11.28",
+                "irestful/concretesets": "13.11.28",
+                "irestful/methodmetadatalists": "13.11.28",
+                "irestful/methodmetadatas": "13.11.28",
+                "irestful/methodmetadatasets": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteMethodMetaDataSets": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteMethodMetaDataSets",
+            "time": "2014-03-23 05:29:52"
+        },
+        {
+            "name": "irestful/concretenumericprimitives",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteNumericPrimitives.git",
+                "reference": "e2b7dd8d3c2008e50e6571efcb0eaa4141f3b5bf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteNumericPrimitives/zipball/e2b7dd8d3c2008e50e6571efcb0eaa4141f3b5bf",
+                "reference": "e2b7dd8d3c2008e50e6571efcb0eaa4141f3b5bf",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/booleans": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/concreteprimitives": "13.11.28",
+                "irestful/numericprimitives": "13.11.28",
+                "irestful/primitives": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteNumericPrimitives": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteNumericPrimitives",
+            "time": "2014-03-23 05:19:04"
+        },
+        {
+            "name": "irestful/concreteobjectloaders",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteObjectLoaders.git",
+                "reference": "21470546b7c9b3f6875229995f83406b51be0d71"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteObjectLoaders/zipball/21470546b7c9b3f6875229995f83406b51be0d71",
+                "reference": "21470546b7c9b3f6875229995f83406b51be0d71",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/objectloaders": "13.11.28",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteObjectLoaders": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteObjectLoaders",
+            "time": "2014-01-13 08:55:07"
+        },
+        {
+            "name": "irestful/concreteprimitives",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcretePrimitives.git",
+                "reference": "52f2fe8f4fef006848070b7bcd56884452028b5f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcretePrimitives/zipball/52f2fe8f4fef006848070b7bcd56884452028b5f",
+                "reference": "52f2fe8f4fef006848070b7bcd56884452028b5f",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/objectloaders": "13.11.28",
+                "irestful/primitives": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcretePrimitives": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcretePrimitives",
+            "time": "2014-01-13 06:10:17"
+        },
+        {
+            "name": "irestful/concretepropertyannotationobjects",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcretePropertyAnnotationObjects.git",
+                "reference": "0c895645978b256a5881c8f6a392ab4ea6b0904c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcretePropertyAnnotationObjects/zipball/0c895645978b256a5881c8f6a392ab4ea6b0904c",
+                "reference": "0c895645978b256a5881c8f6a392ab4ea6b0904c",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/propertyannotationobjects": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcretePropertyAnnotationObjects": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcretePropertyAnnotationObjects",
+            "time": "2014-03-23 05:03:52"
+        },
+        {
+            "name": "irestful/concretesets",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteSets.git",
+                "reference": "f0b185919ac816b87dde180cdfdb7af5267be082"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteSets/zipball/f0b185919ac816b87dde180cdfdb7af5267be082",
+                "reference": "f0b185919ac816b87dde180cdfdb7af5267be082",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/concretecollections": "13.11.28",
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concreteobjectloaders": "13.11.28",
+                "irestful/concretesimplelists": "13.11.28",
+                "irestful/sets": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteSets": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteSets",
+            "time": "2014-03-20 20:05:00"
+        },
+        {
+            "name": "irestful/concretesimplelists",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteSimpleLists.git",
+                "reference": "fc712158691818d3fccf738d7c733a5ff30fbcb0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteSimpleLists/zipball/fc712158691818d3fccf738d7c733a5ff30fbcb0",
+                "reference": "fc712158691818d3fccf738d7c733a5ff30fbcb0",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/booleans": "13.11.28",
+                "irestful/concretebooleans": "13.11.28",
+                "irestful/concretecollections": "13.11.28",
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/concreteintegers": "13.11.28",
+                "irestful/concretemethodannotationobjects": "13.11.28",
+                "irestful/concreteobjectloaders": "13.11.28",
+                "irestful/concretestrings": "13.11.28",
+                "irestful/integers": "13.11.28",
+                "irestful/simplelists": "13.11.28",
+                "irestful/strings": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteSimpleLists": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteSimpleLists",
+            "time": "2014-03-23 04:57:53"
+        },
+        {
+            "name": "irestful/concretestringlists",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteStringLists.git",
+                "reference": "63c0ae5906fedd713f8b284a6e3b9c3a4dee62fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteStringLists/zipball/63c0ae5906fedd713f8b284a6e3b9c3a4dee62fc",
+                "reference": "63c0ae5906fedd713f8b284a6e3b9c3a4dee62fc",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/concretebooleans": "13.11.28",
+                "irestful/concretecollections": "13.11.28",
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/concreteintegers": "13.11.28",
+                "irestful/concreteobjectloaders": "13.11.28",
+                "irestful/concretesimplelists": "13.11.28",
+                "irestful/concretestrings": "13.11.28",
+                "irestful/stringlists": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteStringLists": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteStringLists",
+            "time": "2014-03-23 04:51:53"
+        },
+        {
+            "name": "irestful/concretestrings",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteStrings.git",
+                "reference": "2f7362ea92d47686b9a0bf02b7e07b5a5300c03d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteStrings/zipball/2f7362ea92d47686b9a0bf02b7e07b5a5300c03d",
+                "reference": "2f7362ea92d47686b9a0bf02b7e07b5a5300c03d",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/booleans": "13.11.28",
+                "irestful/concretebooleans": "13.11.28",
+                "irestful/concreteclassannotationobjects": "13.11.28",
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/concreteintegers": "13.11.28",
+                "irestful/concreteprimitives": "13.11.28",
+                "irestful/integers": "13.11.28",
+                "irestful/objectloaders": "13.11.28",
+                "irestful/primitives": "13.11.28",
+                "irestful/strings": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteStrings": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteStrings",
+            "time": "2014-03-23 04:50:11"
+        },
+        {
+            "name": "irestful/concretestringsets",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteStringSets.git",
+                "reference": "b5dc7f5c807b81010dd57a67e51411c9a96c065b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteStringSets/zipball/b5dc7f5c807b81010dd57a67e51411c9a96c065b",
+                "reference": "b5dc7f5c807b81010dd57a67e51411c9a96c065b",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/concreteobjectloaders": "13.11.28",
+                "irestful/concretesets": "13.11.28",
+                "irestful/concretestringlists": "13.11.28",
+                "irestful/stringlists": "13.11.28",
+                "irestful/stringsets": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteStringSets": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteStringSets",
+            "time": "2014-03-26 11:30:08"
+        },
+        {
+            "name": "irestful/concretetransformreferences",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteTransformReferences.git",
+                "reference": "b46d352c4a646fd729c08da6411c7d8ddb93ab7d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteTransformReferences/zipball/b46d352c4a646fd729c08da6411c7d8ddb93ab7d",
+                "reference": "b46d352c4a646fd729c08da6411c7d8ddb93ab7d",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/transformreferences": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteTransformReferences": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteTransformReferences",
+            "time": "2014-03-23 04:46:54"
+        },
+        {
+            "name": "irestful/concreteuniqueidentifiers",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteUniqueIdentifiers.git",
+                "reference": "314771b4278460615d4ce47ed21e0d0c435fdc61"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteUniqueIdentifiers/zipball/314771b4278460615d4ce47ed21e0d0c435fdc61",
+                "reference": "314771b4278460615d4ce47ed21e0d0c435fdc61",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/uniqueidentifiers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteUniqueIdentifiers": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteUniqueIdentifiers",
+            "time": "2014-03-23 04:32:00"
+        },
+        {
+            "name": "irestful/concreteuuids",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ConcreteUuids.git",
+                "reference": "5e2d2170f72da5a662dddd74f87ee9b27aa17feb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ConcreteUuids/zipball/5e2d2170f72da5a662dddd74f87ee9b27aa17feb",
+                "reference": "5e2d2170f72da5a662dddd74f87ee9b27aa17feb",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/concreteclassannotationobjects": "13.11.28",
+                "irestful/concretedatetimes": "13.11.28",
+                "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+                "irestful/concretefunctionaltesthelpers": "13.11.28",
+                "irestful/concretemethodannotationobjects": "13.11.28",
+                "irestful/concretestrings": "13.11.28",
+                "irestful/concreteuniqueidentifiers": "13.11.28",
+                "irestful/datetimes": "13.11.28",
+                "irestful/strings": "13.11.28",
+                "irestful/uuids": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConcreteUuids": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ConcreteUuids",
+            "time": "2014-03-23 04:26:58"
+        },
+        {
+            "name": "irestful/datetimes",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/DateTimes.git",
+                "reference": "d5d25631f709faad8e983ed286e6dd055119eaf2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/DateTimes/zipball/d5d25631f709faad8e983ed286e6dd055119eaf2",
+                "reference": "d5d25631f709faad8e983ed286e6dd055119eaf2",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/booleans": "13.11.28",
+                "irestful/integers": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DateTimes": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/DateTimes",
+            "time": "2014-03-22 15:19:29"
+        },
+        {
+            "name": "irestful/dependencyinjectionapplications",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/DependencyInjectionApplications.git",
+                "reference": "3f72fb72ab9746f354919bf3596fd51a98a332d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/DependencyInjectionApplications/zipball/3f72fb72ab9746f354919bf3596fd51a98a332d2",
+                "reference": "3f72fb72ab9746f354919bf3596fd51a98a332d2",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/dependencyinjections": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DependencyInjectionApplications": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/DependencyInjectionApplications",
+            "time": "2014-03-24 19:34:00"
+        },
+        {
+            "name": "irestful/dependencyinjectionmultisources",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/DependencyInjectionMultiSources.git",
+                "reference": "dcc22d7900d0c2c07cb8ae2d523c475e6387273a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/DependencyInjectionMultiSources/zipball/dcc22d7900d0c2c07cb8ae2d523c475e6387273a",
+                "reference": "dcc22d7900d0c2c07cb8ae2d523c475e6387273a",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DependencyInjectionMultiSources": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/DependencyInjectionMultiSources",
+            "time": "2014-03-22 21:36:24"
+        },
+        {
+            "name": "irestful/dependencyinjectionobjects",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/DependencyInjectionObjects.git",
+                "reference": "c490c46932384d03d0f708234bc4fc1f5e8c9928"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/DependencyInjectionObjects/zipball/c490c46932384d03d0f708234bc4fc1f5e8c9928",
+                "reference": "c490c46932384d03d0f708234bc4fc1f5e8c9928",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DependencyInjectionObjects": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/DependencyInjectionObjects",
+            "time": "2014-03-23 17:03:59"
+        },
+        {
+            "name": "irestful/dependencyinjectionrepositories",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/DependencyInjectionRepositories.git",
+                "reference": "9e70e0c668ee927c63e0467ef34de01ffdc32485"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/DependencyInjectionRepositories/zipball/9e70e0c668ee927c63e0467ef34de01ffdc32485",
+                "reference": "9e70e0c668ee927c63e0467ef34de01ffdc32485",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/dependencyinjectionretrievercriterias": "13.11.28",
+                "irestful/dependencyinjections": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DependencyInjectionRepositories": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/DependencyInjectionRepositories",
+            "time": "2014-03-22 21:38:17"
+        },
+        {
+            "name": "irestful/dependencyinjectionretrievercriterias",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/DependencyInjectionRetrieverCriterias.git",
+                "reference": "bfcc969c4870291295e294d21ed82647e0ac41f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/DependencyInjectionRetrieverCriterias/zipball/bfcc969c4870291295e294d21ed82647e0ac41f2",
+                "reference": "bfcc969c4870291295e294d21ed82647e0ac41f2",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DependencyInjectionRetrieverCriterias": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/DependencyInjectionRetrieverCriterias",
+            "time": "2013-12-30 22:34:41"
+        },
+        {
+            "name": "irestful/dependencyinjections",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/DependencyInjections.git",
+                "reference": "e2669c906818072d8b1079511c6e0f8235b0e900"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/DependencyInjections/zipball/e2669c906818072d8b1079511c6e0f8235b0e900",
+                "reference": "e2669c906818072d8b1079511c6e0f8235b0e900",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/dependencyinjectionobjects": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DependencyInjections": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/DependencyInjections",
+            "time": "2014-03-23 17:51:05"
+        },
+        {
+            "name": "irestful/entities",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/Entities.git",
+                "reference": "94b109e3c0894878bf24649e40d275cbe62dcd2b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/Entities/zipball/94b109e3c0894878bf24649e40d275cbe62dcd2b",
+                "reference": "94b109e3c0894878bf24649e40d275cbe62dcd2b",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/booleans": "13.11.28",
+                "irestful/datetimes": "13.11.28",
+                "irestful/hashmaprepresentations": "13.11.28",
+                "irestful/hashmaps": "13.11.28",
+                "irestful/jsons": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "irestful/uuids": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Entities": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/Entities",
+            "time": "2014-04-03 09:29:57"
+        },
+        {
+            "name": "irestful/hashmaprepresentations",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/HashMapRepresentations.git",
+                "reference": "b0b0b4c6c94a363f072eba59bf666532ecb1c5fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/HashMapRepresentations/zipball/b0b0b4c6c94a363f072eba59bf666532ecb1c5fd",
+                "reference": "b0b0b4c6c94a363f072eba59bf666532ecb1c5fd",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/booleans": "13.11.28",
+                "irestful/hashmaps": "13.11.28",
+                "irestful/strings": "13.11.28",
+                "irestful/uniqueidentifiers": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "HashMapRepresentations": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/HashMapRepresentations",
+            "time": "2014-03-19 13:09:02"
+        },
+        {
+            "name": "irestful/hashmaps",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/HashMaps.git",
+                "reference": "3668849e6d1e2a52af6af13a4b900b36adb0c645"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/HashMaps/zipball/3668849e6d1e2a52af6af13a4b900b36adb0c645",
+                "reference": "3668849e6d1e2a52af6af13a4b900b36adb0c645",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/strings": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "HashMaps": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/HashMaps",
+            "time": "2014-03-22 15:43:07"
+        },
+        {
+            "name": "irestful/integers",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/Integers.git",
+                "reference": "2673f6669a6318aa22384ab8d0cc6cce7063584c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/Integers/zipball/2673f6669a6318aa22384ab8d0cc6cce7063584c",
+                "reference": "2673f6669a6318aa22384ab8d0cc6cce7063584c",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/numericprimitives": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Integers": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "description": "Integer type interfaces",
+            "homepage": "https://github.com/irestful/Integers",
+            "keywords": [
+                "integers"
+            ],
+            "time": "2014-03-22 20:05:39"
+        },
+        {
+            "name": "irestful/jsons",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/Jsons.git",
+                "reference": "4843abf33354add1b14d408acc731fb00a3308ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/Jsons/zipball/4843abf33354add1b14d408acc731fb00a3308ef",
+                "reference": "4843abf33354add1b14d408acc731fb00a3308ef",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Jsons": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/Jsons",
+            "time": "2014-03-22 15:35:00"
+        },
+        {
+            "name": "irestful/methodannotationobjects",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/MethodAnnotationObjects.git",
+                "reference": "71c7b8d57f18ccdec1bcf07b1f57fd4a982b2ead"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/MethodAnnotationObjects/zipball/71c7b8d57f18ccdec1bcf07b1f57fd4a982b2ead",
+                "reference": "71c7b8d57f18ccdec1bcf07b1f57fd4a982b2ead",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "MethodAnnotationObjects": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/MethodAnnotationObjects",
+            "time": "2014-03-26 08:07:33"
+        },
+        {
+            "name": "irestful/methodmetadatalists",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/MethodMetaDataLists.git",
+                "reference": "fbca60508865a04d81135db87856fd85b2a8ba2f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/MethodMetaDataLists/zipball/fbca60508865a04d81135db87856fd85b2a8ba2f",
+                "reference": "fbca60508865a04d81135db87856fd85b2a8ba2f",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/simplelists": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "MethodMetaDataLists": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/MethodMetaDataLists",
+            "time": "2014-03-20 10:43:47"
+        },
+        {
+            "name": "irestful/methodmetadatarepositories",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/MethodMetaDataRepositories.git",
+                "reference": "d3c186a29c6bba7b2185c52a60512cb27eb06534"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/MethodMetaDataRepositories/zipball/d3c186a29c6bba7b2185c52a60512cb27eb06534",
+                "reference": "d3c186a29c6bba7b2185c52a60512cb27eb06534",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/methodmetadataretrievercriterias": "13.11.28",
+                "irestful/methodmetadatas": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "MethodMetaDataRepositories": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/MethodMetaDataRepositories",
+            "time": "2014-03-10 21:27:10"
+        },
+        {
+            "name": "irestful/methodmetadataretrievercriterias",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/MethodMetaDataRetrieverCriterias.git",
+                "reference": "29e84e866556197f55195117d8cd0947db1e7cab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/MethodMetaDataRetrieverCriterias/zipball/29e84e866556197f55195117d8cd0947db1e7cab",
+                "reference": "29e84e866556197f55195117d8cd0947db1e7cab",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/booleans": "13.11.28",
+                "irestful/strings": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "MethodMetaDataRetrieverCriterias": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/MethodMetaDataRetrieverCriterias",
+            "time": "2014-03-13 15:11:12"
+        },
+        {
+            "name": "irestful/methodmetadatas",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/MethodMetaDatas.git",
+                "reference": "1f7d1f9969b330d4155252b209305b9e4090558a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/MethodMetaDatas/zipball/1f7d1f9969b330d4155252b209305b9e4090558a",
+                "reference": "1f7d1f9969b330d4155252b209305b9e4090558a",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/booleans": "13.11.28",
+                "irestful/strings": "13.11.28",
+                "irestful/transformreferences": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "MethodMetaDatas": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/MethodMetaDatas",
+            "time": "2014-03-26 08:50:27"
+        },
+        {
+            "name": "irestful/methodmetadatasets",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/MethodMetaDataSets.git",
+                "reference": "cd22f7c68047b18367726ccf14cf87d2f01ef22f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/MethodMetaDataSets/zipball/cd22f7c68047b18367726ccf14cf87d2f01ef22f",
+                "reference": "cd22f7c68047b18367726ccf14cf87d2f01ef22f",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/sets": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "MethodMetaDataSets": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/MethodMetaDataSets",
+            "time": "2014-03-20 10:52:59"
+        },
+        {
+            "name": "irestful/numericprimitives",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/NumericPrimitives.git",
+                "reference": "bdf44304c95ab3df503021fb2a39f53a879cf26a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/NumericPrimitives/zipball/bdf44304c95ab3df503021fb2a39f53a879cf26a",
+                "reference": "bdf44304c95ab3df503021fb2a39f53a879cf26a",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/booleans": "13.11.28",
+                "irestful/primitives": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "NumericPrimitives": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/NumericPrimitives",
+            "time": "2014-03-22 17:34:15"
+        },
+        {
+            "name": "irestful/objectloaders",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/ObjectLoaders.git",
+                "reference": "f673318056a87feb51f64ae8ed14599036e04e91"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/ObjectLoaders/zipball/f673318056a87feb51f64ae8ed14599036e04e91",
+                "reference": "f673318056a87feb51f64ae8ed14599036e04e91",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ObjectLoaders": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/ObjectLoaders",
+            "time": "2014-03-22 20:34:14"
+        },
+        {
+            "name": "irestful/primitives",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/Primitives.git",
+                "reference": "92c88bde48570a7e59535b39a665eab07ae786ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/Primitives/zipball/92c88bde48570a7e59535b39a665eab07ae786ef",
+                "reference": "92c88bde48570a7e59535b39a665eab07ae786ef",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Primitives": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/Primitives",
+            "time": "2014-03-22 17:25:19"
+        },
+        {
+            "name": "irestful/propertyannotationobjects",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/PropertyAnnotationObjects.git",
+                "reference": "f76ff099f465f7cd14b36b8ef4a4c6f9654634e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/PropertyAnnotationObjects/zipball/f76ff099f465f7cd14b36b8ef4a4c6f9654634e9",
+                "reference": "f76ff099f465f7cd14b36b8ef4a4c6f9654634e9",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PropertyAnnotationObjects": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/PropertyAnnotationObjects",
+            "time": "2014-03-20 09:27:03"
+        },
+        {
+            "name": "irestful/sets",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/Sets.git",
+                "reference": "a95cf6fbb59fb33f2d3ebb93be87c7f525254e9a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/Sets/zipball/a95cf6fbb59fb33f2d3ebb93be87c7f525254e9a",
+                "reference": "a95cf6fbb59fb33f2d3ebb93be87c7f525254e9a",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/collections": "13.11.28",
+                "irestful/simplelists": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Sets": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/Sets",
+            "time": "2014-03-22 20:17:41"
+        },
+        {
+            "name": "irestful/simplelists",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/SimpleLists.git",
+                "reference": "ab15a65ebbe24435c06c5f64aca1423ab75355b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/SimpleLists/zipball/ab15a65ebbe24435c06c5f64aca1423ab75355b4",
+                "reference": "ab15a65ebbe24435c06c5f64aca1423ab75355b4",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/collections": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "SimpleLists": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/SimpleLists",
+            "time": "2014-03-22 20:15:16"
+        },
+        {
+            "name": "irestful/stringlists",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/StringLists.git",
+                "reference": "0bde55c59a85403f3a62302bc441d4d8027d7b3a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/StringLists/zipball/0bde55c59a85403f3a62302bc441d4d8027d7b3a",
+                "reference": "0bde55c59a85403f3a62302bc441d4d8027d7b3a",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/simplelists": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "irestful/unittesthelpers": "13.11.28",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "StringLists": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/StringLists",
+            "time": "2014-03-22 21:25:55"
+        },
+        {
+            "name": "irestful/strings",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/Strings.git",
+                "reference": "2d1bb44f63db45ba954e6a2c3532fa101c151ab1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/Strings/zipball/2d1bb44f63db45ba954e6a2c3532fa101c151ab1",
+                "reference": "2d1bb44f63db45ba954e6a2c3532fa101c151ab1",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/booleans": "13.11.28",
+                "irestful/integers": "13.11.28",
+                "irestful/primitives": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Strings": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "description": "String type interfaces",
+            "homepage": "https://github.com/irestful/Strings",
+            "keywords": [
+                "strings"
+            ],
+            "time": "2014-03-22 15:54:48"
+        },
+        {
+            "name": "irestful/stringsets",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/StringSets.git",
+                "reference": "76a5f3b27d4e1eb3fb2e2117fa8467ee8ed7173c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/StringSets/zipball/76a5f3b27d4e1eb3fb2e2117fa8467ee8ed7173c",
+                "reference": "76a5f3b27d4e1eb3fb2e2117fa8467ee8ed7173c",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/sets": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "StringSets": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/StringSets",
+            "time": "2014-03-22 21:27:32"
+        },
+        {
+            "name": "irestful/transformreferences",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/TransformReferences.git",
+                "reference": "0711827f49cdfee97bf86f0aa2d909b458a26604"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/TransformReferences/zipball/0711827f49cdfee97bf86f0aa2d909b458a26604",
+                "reference": "0711827f49cdfee97bf86f0aa2d909b458a26604",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/booleans": "13.11.28",
+                "irestful/strings": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "TransformReferences": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/TransformReferences",
+            "time": "2014-03-26 09:57:07"
+        },
+        {
+            "name": "irestful/uniqueidentifiers",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/UniqueIdentifiers.git",
+                "reference": "2cbe8cdee6d9f4210da5bee04170d464d879154b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/UniqueIdentifiers/zipball/2cbe8cdee6d9f4210da5bee04170d464d879154b",
+                "reference": "2cbe8cdee6d9f4210da5bee04170d464d879154b",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/strings": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "UniqueIdentifiers": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/UniqueIdentifiers",
+            "time": "2014-02-25 21:01:21"
+        },
+        {
+            "name": "irestful/unittesthelpers",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/UnitTestHelpers.git",
+                "reference": "305d4878f3c9a0b6e988f52ac541af1e480ecb8e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/UnitTestHelpers/zipball/305d4878f3c9a0b6e988f52ac541af1e480ecb8e",
+                "reference": "305d4878f3c9a0b6e988f52ac541af1e480ecb8e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "UnitTestHelpers": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/UnitTestHelpers",
+            "time": "2014-03-22 21:56:57"
+        },
+        {
+            "name": "irestful/uuids",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/Uuids.git",
+                "reference": "fd9002192b89408f888ae43d4d28bd882fd5c23a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/Uuids/zipball/fd9002192b89408f888ae43d4d28bd882fd5c23a",
+                "reference": "fd9002192b89408f888ae43d4d28bd882fd5c23a",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/datetimes": "13.11.28",
+                "irestful/strings": "13.11.28",
+                "irestful/uniqueidentifiers": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Uuids": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/Uuids",
+            "time": "2014-03-22 22:00:04"
+        },
+        {
+            "name": "yannhardouin/employees",
+            "version": "14.04.08",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yannhardouin/Employees.git",
+                "reference": "7cfbccc5a3b90aaf1ff9deeacbf4c2fd71b9dd06"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yannhardouin/Employees/zipball/7cfbccc5a3b90aaf1ff9deeacbf4c2fd71b9dd06",
+                "reference": "7cfbccc5a3b90aaf1ff9deeacbf4c2fd71b9dd06",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/entities": "13.11.28",
+                "irestful/integers": "13.11.28",
+                "irestful/strings": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Employees": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yann Hardouin",
+                    "email": "yann.hardouin@iut-dijon.u-bourgogne.fr"
+                }
+            ],
+            "homepage": "https://github.com/yannhardouin/Employees",
+            "time": "2014-04-08 14:55:48"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "phpunit/php-code-coverage",
+            "version": "1.2.17",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
+                "reference": "6ef2bf3a1c47eca07ea95f0d8a902a6340390b34"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/6ef2bf3a1c47eca07ea95f0d8a902a6340390b34",
+                "reference": "6ef2bf3a1c47eca07ea95f0d8a902a6340390b34",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "phpunit/php-file-iterator": ">=1.3.0@stable",
+                "phpunit/php-text-template": ">=1.2.0@stable",
+                "phpunit/php-token-stream": ">=1.1.3@stable"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*@dev"
+            },
+            "suggest": {
+                "ext-dom": "*",
+                "ext-xdebug": ">=2.0.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "PHP/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Library that provides collection, processing, and rendering functionality for PHP code coverage information.",
+            "homepage": "https://github.com/sebastianbergmann/php-code-coverage",
+            "keywords": [
+                "coverage",
+                "testing",
+                "xunit"
+            ],
+            "time": "2014-03-28 10:53:45"
+        },
+        {
+            "name": "phpunit/php-file-iterator",
+            "version": "1.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
+                "reference": "acd690379117b042d1c8af1fafd61bde001bf6bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/acd690379117b042d1c8af1fafd61bde001bf6bb",
+                "reference": "acd690379117b042d1c8af1fafd61bde001bf6bb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "File/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "FilterIterator implementation that filters files based on a list of suffixes.",
+            "homepage": "https://github.com/sebastianbergmann/php-file-iterator/",
+            "keywords": [
+                "filesystem",
+                "iterator"
+            ],
+            "time": "2013-10-10 15:34:57"
+        },
+        {
+            "name": "phpunit/php-text-template",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-text-template.git",
+                "reference": "206dfefc0ffe9cebf65c413e3d0e809c82fbf00a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-text-template/zipball/206dfefc0ffe9cebf65c413e3d0e809c82fbf00a",
+                "reference": "206dfefc0ffe9cebf65c413e3d0e809c82fbf00a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Text/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Simple template engine.",
+            "homepage": "https://github.com/sebastianbergmann/php-text-template/",
+            "keywords": [
+                "template"
+            ],
+            "time": "2014-01-30 17:20:04"
+        },
+        {
+            "name": "phpunit/php-timer",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-timer.git",
+                "reference": "19689d4354b295ee3d8c54b4f42c3efb69cbc17c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/19689d4354b295ee3d8c54b4f42c3efb69cbc17c",
+                "reference": "19689d4354b295ee3d8c54b4f42c3efb69cbc17c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "PHP/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Utility class for timing",
+            "homepage": "https://github.com/sebastianbergmann/php-timer/",
+            "keywords": [
+                "timer"
+            ],
+            "time": "2013-08-02 07:42:54"
+        },
+        {
+            "name": "phpunit/php-token-stream",
+            "version": "1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-token-stream.git",
+                "reference": "ad4e1e23ae01b483c16f600ff1bebec184588e32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/ad4e1e23ae01b483c16f600ff1bebec184588e32",
+                "reference": "ad4e1e23ae01b483c16f600ff1bebec184588e32",
+                "shasum": ""
+            },
+            "require": {
+                "ext-tokenizer": "*",
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "PHP/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Wrapper around PHP's tokenizer extension.",
+            "homepage": "https://github.com/sebastianbergmann/php-token-stream/",
+            "keywords": [
+                "tokenizer"
+            ],
+            "time": "2014-03-03 05:10:30"
+        },
+        {
+            "name": "phpunit/phpunit",
+            "version": "3.7.34",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit.git",
+                "reference": "248d6ce95e6ca7f0e3135252c0b984bbe1f52f19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/248d6ce95e6ca7f0e3135252c0b984bbe1f52f19",
+                "reference": "248d6ce95e6ca7f0e3135252c0b984bbe1f52f19",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-pcre": "*",
+                "ext-reflection": "*",
+                "ext-spl": "*",
+                "php": ">=5.3.3",
+                "phpunit/php-code-coverage": "~1.2",
+                "phpunit/php-file-iterator": "~1.3",
+                "phpunit/php-text-template": "~1.1",
+                "phpunit/php-timer": "~1.0",
+                "phpunit/phpunit-mock-objects": "~1.2",
+                "symfony/yaml": "~2.0"
+            },
+            "require-dev": {
+                "pear-pear.php.net/pear": "1.9.4"
+            },
+            "suggest": {
+                "ext-json": "*",
+                "ext-simplexml": "*",
+                "ext-tokenizer": "*",
+                "phpunit/php-invoker": "~1.1"
+            },
+            "bin": [
+                "composer/bin/phpunit"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.7.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "PHPUnit/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "",
+                "../../symfony/yaml/"
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "The PHP Unit Testing framework.",
+            "homepage": "http://www.phpunit.de/",
+            "keywords": [
+                "phpunit",
+                "testing",
+                "xunit"
+            ],
+            "time": "2014-03-28 11:04:36"
+        },
+        {
+            "name": "phpunit/phpunit-mock-objects",
+            "version": "1.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
+                "reference": "5794e3c5c5ba0fb037b11d8151add2a07fa82875"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/5794e3c5c5ba0fb037b11d8151add2a07fa82875",
+                "reference": "5794e3c5c5ba0fb037b11d8151add2a07fa82875",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "phpunit/php-text-template": ">=1.1.1@stable"
+            },
+            "suggest": {
+                "ext-soap": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "PHPUnit/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Mock Object library for PHPUnit",
+            "homepage": "https://github.com/sebastianbergmann/phpunit-mock-objects/",
+            "keywords": [
+                "mock",
+                "xunit"
+            ],
+            "time": "2013-01-13 10:24:48"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "v2.4.3",
+            "target-dir": "Symfony/Component/Yaml",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Yaml.git",
+                "reference": "77a41c2835ab7cfe8bf6d15e25d3af8f3eb3bacd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/77a41c2835ab7cfe8bf6d15e25d3af8f3eb3bacd",
+                "reference": "77a41c2835ab7cfe8bf6d15e25d3af8f3eb3bacd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Yaml\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-03-12 18:29:58"
+        }
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ],
+    "platform": {
+        "php": ">=5.4.0"
+    },
+    "platform-dev": [
+
+    ]
+}

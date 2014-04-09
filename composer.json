@@ -1,0 +1,30 @@
+{
+    "name": "yannhardouin/concreteemployees",
+    "type": "library",
+    "homepage": "https://github.com/yannhardouin/ConcreteEmployees",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yann Hardouin",
+            "email": "yann.hardouin@iut-dijon.u-bourgogne.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "irestful/unittesthelpers": "13.11.28",
+        "irestful/integers": "13.11.28",
+        "irestful/entities": "13.11.28",
+        "irestful/strings": "13.11.28",
+        "yannhardouin/employees": "14.04.08",
+        "irestful/concretedependencyinjectionobjectplaceholders": "13.11.28",
+        "irestful/concreteentities": "13.11.28",
+        "irestful/concreteclassannotationobjects": "13.11.28",
+        "irestful/concretemethodannotationobjects": "13.11.28"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": { "ConcreteEmployees": "." }
+    }
+}
